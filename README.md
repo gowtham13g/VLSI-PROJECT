@@ -1,7 +1,14 @@
 # VLSI-PROJECT
-# 16-bit Carry Save Adder - Semi-Custom ASIC Flow Using Cadence
-
+# 16-BIT CARRY SAVE ADDER -semi-custom ASIC flow using cadence
 This project implements a 16-bit carry save adder (CSA) designed and verified through a full semi-custom ASIC flow using Cadence tools, from RTL simulation to synthesis and physical layout.
+## DESIGN FLOW
+- **the main steps followed are:/**
+    -  `RTL development(verilog)`
+    -  `functional verification(simVision / Modelsim)`
+    -  `synthesis(genus tool implementation)`
+    -  `netlist to schematic view`
+    -  `place and route(innovus tool implementation)`
+    -  `DRC/VERIFY CONNECTIVITY and GDSII Generation`
 
 ## Project Structure
 
@@ -12,9 +19,9 @@ This project implements a 16-bit carry save adder (CSA) designed and verified th
 - **Testbench/**
   - `carry_save_adder_tb.v` : Verilog testbench for functional simulation.[View carry_save_adder.v source code](carry_save_adder_tb.v)
 - **TCL/**
-  - `run.tcl` : TCL script for synthesis in Cadence Genus.
+  - `run.tcl` : TCL script for synthesis in Cadence Genus.[View run.tcl source code](run.tcl)
 - **Constraints/**
-  - `input_constraints.sdc` : SDC file defining timing and physical constraints.
+  - `input_constraints.sdc` : SDC file defining timing and physical constraints.[View input_constraints.sdc source code](input_constraints.sdc)
 
 ## Project Description
 
