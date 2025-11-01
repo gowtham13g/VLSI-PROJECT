@@ -10,7 +10,7 @@ This project implements a 16-bit carry save adder (CSA) designed and verified th
 
   - `full_adder.v` : Full adder module used in the CSA.
 - **Testbench/**
-  - `carry_save_adder_tb.v` : Verilog testbench for functional simulation.
+  - `carry_save_adder_tb.v` : Verilog testbench for functional simulation.[View carry_save_adder.v source code](carry_save_adder_tb.v)
 - **TCL/**
   - `run.tcl` : TCL script for synthesis in Cadence Genus.
 - **Constraints/**
