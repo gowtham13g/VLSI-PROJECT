@@ -62,8 +62,11 @@ The project follows these main steps:
 - Timing, power, and area reports
 - Schematic view of the synthesized design
 - Run Genus with: source run.tcl
+- after implemting the genus tool we will get the genus tool window from that we can get the schematic view  [schematic view](images/schematicview.jpg)
+- again in terminal generate the reports of area, power,timing 
 
-- - Inspect reports in the `reports/` folder for design metrics.
+- - Inspect reports of [report_area](reports/report_area.txt),[report_power](reports/report_power.txt),[report_timing](reports/report_timing.txt)
+  - the final report   [report](images/report.jpg)
 
 ### 3. Physical Design and Layout in Cadence Innovus
 
